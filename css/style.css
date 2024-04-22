@@ -74,6 +74,8 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -190,7 +192,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: inline-block;
+    display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -530,14 +532,6 @@ img {
     background-color: #F4F4FD;
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 12px;
-    padding-right: 12px;
-    /* padding: 120px 0; */
-}
-
-.team-bg {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .our-time-list {
@@ -765,8 +759,6 @@ img {
 .footer {
     background-color: #2E2F42;
     padding: 96px 0;
-    /* height: 312px;
-    padding: 100px 0; */
 }
 
 
@@ -776,7 +768,6 @@ img {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 100px;
 }
 
 .studio-span {
@@ -809,7 +800,7 @@ img {
 }
 
 .logo-wrapper {
-    /* margin-right: 120px; */
+    margin-bottom: 72px;
 }
 
 .social-media-paragraph {
@@ -828,6 +819,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 .social-media-list {
@@ -1157,6 +1149,7 @@ input::placeholder {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    text-align: center;
 
 }
 
@@ -1216,13 +1209,17 @@ input::placeholder {
     margin-left: 16px;
 }
 
+.container-logo-and-socsal {
+    margin-bottom: 72px;
+}
+
 @media screen and (min-width: 768px) {
     .footer {
         display: flex;
         padding-top: 96px;
         padding-bottom: 96px;
         padding-left: 108px;
-        padding-right: 164px;
+        padding-right: 108px;
     }
 
     .footer-containe {
@@ -1258,6 +1255,12 @@ input::placeholder {
         flex-direction: row;
         margin-bottom: 0;
     }
+    .form-text {
+        text-align: left;
+    }
+    .logo-wrapper {
+    text-align: left;
+}
 }
 
 @media (min-width: 1158px) {
@@ -1392,7 +1395,6 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 168px;
 }
 
 .burger-nav-item {}
@@ -1414,7 +1416,6 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
 }
 
 .burger-contacts-item {}
