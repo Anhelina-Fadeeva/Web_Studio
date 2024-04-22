@@ -751,6 +751,7 @@ img {
 @media (min-width: 1158px) {
     .box-portfolio {
         width: calc((100% - 48px) / 3);
+        box-shadow: none;
     }
 }
 
@@ -1215,7 +1216,6 @@ input::placeholder {
 
 @media screen and (min-width: 768px) {
     .footer {
-        display: flex;
         padding-top: 96px;
         padding-bottom: 96px;
         padding-left: 108px;
@@ -1233,7 +1233,7 @@ input::placeholder {
     }
 
     .logo-footer {
-        justify-content: left;
+        margin-left: 0;
     }
 
     .social-media-container {
@@ -1253,7 +1253,7 @@ input::placeholder {
     .container-logo-ang-social {
         display: flex;
         flex-direction: row;
-        margin-bottom: 0;
+        margin-bottom: 72px;
     }
     .form-text {
         text-align: left;
@@ -1261,6 +1261,9 @@ input::placeholder {
     .logo-wrapper {
     text-align: left;
 }
+    .social-media-paragraph {
+        text-align: left;
+    }
 }
 
 @media (min-width: 1158px) {
@@ -1272,6 +1275,8 @@ input::placeholder {
     .footer-containe {
         display: flex;
         flex-direction: row;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .footer {
@@ -1292,6 +1297,11 @@ input::placeholder {
     }
 }
 
+@media screen and (min-width: 1158px) {
+    .container-logo-ang-social {
+        margin-bottom: 0;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .modal {
