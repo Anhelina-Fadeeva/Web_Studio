@@ -168,8 +168,6 @@ img {
 .header-info {
     display: none;
     gap: 24px;
-    /* display: flex;
-    gap: 40px; */
 }
 
 
@@ -289,8 +287,6 @@ img {
 .big-text {
     font-size: 36px;
     line-height: 1.11;
-    /* font-size: 56px; */
-    /* line-height: 1.07; */
     font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
@@ -298,10 +294,6 @@ img {
     max-width: 216px;
     margin: 0 auto;
     margin-bottom: 72px;
-    /* max-width: 496px; */
-    /* height: 120px;
-    margin-bottom: 48px; */
-
 }
 
 .button-header {
@@ -409,7 +401,6 @@ img {
 
 
 .features {
-    /* padding: 120px 0; */
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -462,7 +453,6 @@ img {
 }
 
 .feauter-item {
-    /* width: calc((100% - 72px) / 4); */
     width: 100%;
 }
 
@@ -592,7 +582,6 @@ img {
 }
 
 
-
 .icon-list {
     gap: 24px;
     display: flex;
@@ -652,8 +641,6 @@ img {
 .portfolio {
     padding-top: 96px;
     padding-bottom: 96px;
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
 }
 
 .app-container {
@@ -711,7 +698,6 @@ img {
 }
 
 .box-portfolio:first-child {
-    /* width: calc((100% - 48px) / 3); */
 }
 
 .box-portfolio:hover {
@@ -797,11 +783,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
-    /* display: inline-block;
-    margin-bottom: 16px;
-    width: 115px;
-    height: 24px; */
-
 }
 
 
@@ -1073,7 +1054,6 @@ input::placeholder {
 }
 
 .modal-field {
-    /* margin-bottom: 24px; */
 }
 
 .check-text {
