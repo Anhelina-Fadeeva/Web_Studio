@@ -518,12 +518,6 @@ img {
     .features {
         padding: 120px 0;
     }
-    .our-team {
-        padding: 120px 0;
-    }
-    .portfolio {
-        padding: 120px 0;
-    }
 }
 
 /*ORE TEAM*/
@@ -747,6 +741,13 @@ img {
     .box-portfolio {
         width: calc((100% - 48px) / 3);
         box-shadow: none;
+    }
+    .our-team {
+        padding: 120px 0;
+    }
+        
+    .portfolio {
+        padding: 120px 0;
     }
 }
 
