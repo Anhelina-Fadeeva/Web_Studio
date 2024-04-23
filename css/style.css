@@ -387,7 +387,7 @@ img {
         max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
-        margin-bottom: 36px;
+        margin-bottom: 48px;
     }
 }
 
@@ -524,6 +524,15 @@ img {
 
     .icon-container {
         display: flex;
+    }
+    .features {
+        padding: 120px 0;
+    }
+    .our-team {
+        padding: 120px 0;
+    }
+    .portfolio {
+        padding: 120px 0;
     }
 }
 
@@ -1169,7 +1178,7 @@ input::placeholder {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 264px;
+    width: 288px;
     height: 40px;
     background-color: transparent;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -1263,6 +1272,9 @@ input::placeholder {
 }
     .social-media-paragraph {
         text-align: left;
+    }
+    .email-footer {
+        width: 264px;
     }
 }
 
